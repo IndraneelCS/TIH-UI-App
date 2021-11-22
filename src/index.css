@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.loadingImage{
+    width: 100%;
+    height:100vh;
+}
+.banner{
+    height: 60px;
+    width: 248px;
+}
+.dropdown-menu{
+    display: block !important;
+}
+.navbar{
+    display: -webkit-box !important;
+}
+.logo{
+    width: 200px;
+    height:40px;
+    padding-left:5%;
+}
+.home{
+    background-color:#eff1f7;
+    min-height:750px;
+    height:92vh;
+}
+.icon{
+    font-size:40px;
+}
+.footer{
+    background-color: white;
+    width:100%;
+    position: fixed;
+    bottom:20px;
+    height:10vh;
+}
+a{
+    color:#eff1f7;
+}
+a span{
+    display: block;
+}
+.dashboard{
+    height:80vh;
+}
+.eventTime {
+ text-align: right;
+ color: lightgrey;
+ font-size: 12px;
+} 
+.cardFontSize {
+ font-size: 14px;
+} 
+.cardImageSize {
+  width: 300px;
+  height:200px;
+} 
+.cardFooterImageSize {
+  width: 100%;
+  height: 300px;
+} 
+.cardFooterSize {
+    margin-top: 20px;
+} 
+
+.card{
+    height: 450px;
+}
+
+.containerClass {
+    background-color: #e2e3e5;
+    overflow: auto
+}
+.gmailLogoClass {
+    background-color: #e2e3e5;
+     width: 40px; 
+    border-radius: 12px;
+    position: relative;
+    float: left;
+    height: 70px; 
+    margin-right: 10px;
+    vertical-align: middle;
+}
+@media (min-width: 576px) {
+    .gmailLogoClass {
+        height: 40px; 
+    }
+}
+
+.notificationTextClass {
+    position: relative;
+    width: 80%;
+    margin: -12px 0px 0px 0px;
+    text-align: left;
+}
+.popUpHeaderClass {
+    background-color:black;
+    color: white;
+}
+
+.navLink {
+    padding: 0 3px 0px 0 !important;
+}
+
+@media (min-width: 576px) {
+    .navLink {
+        padding: 8px 38px 0px 1rem !important;
+    }
+}
+
+.form-container{
+    width: 50%; 
+    /* //or width: 200px, etc */
+}
+.resizeformc {
+    width: 150px;
+    height:200px;
+}
+.saveBtn {
+    width: 30%;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.videoClass {
+    width: 55vh;
+    height: 50vh;
+    border: 2px black;
+    border-radius: 10px;
+}
+
+.iconTextClass {
+    font-size: 12px;
+    margin-left: -5px;
+}
